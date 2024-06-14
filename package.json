@@ -2,7 +2,7 @@
   "name": "@TheRossman/react-three-wiggle",
   "version": "0.0.1",
   "description": "React / threeJS WiggleBones library with typescript support",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/TheRossman/react-three-wiggle.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@TheRossman"
   },
   "author": "Mark Ross",
   "license": "MIT",
@@ -19,7 +19,11 @@
     "url": "https://github.com/TheRossman/react-three-wiggle/issues"
   },
   "homepage": "https://github.com/TheRossman/react-three-wiggle#readme",
+  "dependencies": {
+    "three": "^0.164.1"
+  },
   "devDependencies": {
+    "@types/three": "^0.164.0",
     "typescript": "^5.4.5"
   }
 }
